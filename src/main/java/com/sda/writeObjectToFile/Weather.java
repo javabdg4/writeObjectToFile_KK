@@ -20,6 +20,9 @@ public class Weather {
         this.lon = lon;
     }
 
+    public Weather() {
+    }
+
     public String getCity() {
         return city;
     }
