@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sda.writeObjectToFile.WeatherController">
+   <children>
+      <Button alignment="TOP_CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleSearchCity" text="Search city" />
+      <TextField fx:id="writtenCity" />
+      <Label text="Miejscowość" />
+      <Label fx:id="cityName" prefHeight="26.0" prefWidth="101.0" />
+      <Label text="Temperatura" />
+      <Label fx:id="temp_C" />
+      <Label text="Temperatura odczuwalna" />
+      <Label fx:id="feelsLike" />
+      <ImageView fx:id="imageView" fitHeight="83.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+        </VBox>

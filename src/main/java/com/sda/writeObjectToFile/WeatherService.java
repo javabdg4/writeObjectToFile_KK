@@ -17,6 +17,7 @@ public class WeatherService {
     }
 
     public Weather getCityWeather(String city){
+
         Weather weather= new Weather();
         String url = finalUrl +"&q="+city;
         JSONObject jsonObject=null;
